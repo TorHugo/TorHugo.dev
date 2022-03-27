@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500&display=swap');
+@font-face{
+    font-family: "bebas";
+    src: url("../BebasNeue-Regular.ttf");
+}
+/* ----- RESET ----- */
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    text-decoration: none;
+    color: white;
+}
+body{
+    background-color: black;
+
+}
+/* ----- Scroll Bar ----- */
+body::-webkit-scrollbar{
+    width: 0.5rem;
+    background-color: #b52e31;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #491CFF;
+    border-radius: 30px;
+}
+/* ----- Main ----- */
+main{
+    width: 95%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+/* ----- Title Principal ----- */
+.title{
+    width: 100%;
+    height: 250px;
+    margin: 30px;
+    text-align: center;
+    font-family: bebas;
+    font-size: 50px;
+    padding-top: 25px;
+}
+#languagues{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+#languagues button{
+    margin: 15px;
+    height: 30px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    width: 9.5%;
+    border: solid;
+    text-align: center;
+    box-shadow: 1px 1px 15px #ffffff;
+    border-radius: 5px 20px;
+}
+button{
+    font-family: bebas;
+    color: black;
+    transition: 1s all;
+}
+button:hover{
+    font-size: 24px;
+    border-radius: 5px;
+}
+.portifolio p{
+    margin-top: 100px;
+    text-align: center;
+    font-family: bebas;
+    font-size: 50px;
+}
+#sites{
+    margin: auto;
+    width: 90%;
+    height: 700px;
+    border: solid;
+    background-color: #491CFF;
+    box-shadow: 1px 1px 15px #ffffff;
+}
+#sites div{
+    width: 90%;
+    height: 600px;
+    margin: auto;
+    margin-top: 100px;
+    border: solid;
+    background-color: aliceblue;
+    visibility: visible;
+}
+.formacao{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr); 
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.formacao h2{
+    font-family: bebas;
+}
+.formacao p{
+    font-family: 'Poppins', sans-serif;
+}
+span{ 
+    color: #767676;
+}
+.title_form{
+    font-size: 50px;
+    font-family: bebas;
+    margin-top: 150px;
+    padding-bottom: 15px;
+}
+footer a{
+    font-family: bebas;
+    color: white;
+    font-size: 30px;
+}
+footer a:hover{
+    color: white;
+    transition: 1s all;
+    font-size: 50px;
+    color: #491CFF;
+    text-shadow: 0.1em 0.1em 0.2em rgba(255, 255, 255, 0.336);
+}
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    gap: 150px;
+}
+
+.js {
+    background-color: #f7df1e;
+}
+.html{
+    background-color: #fa6815;
+}
+.css {
+    background-color: #017cc5;
+}
+.php{
+    background-color: #8993c1;
+}
+.android {
+    background-color: #95c04a;
+}
+.java{
+    background-color: #e86e00;
+}
+.react{
+    background-color: #61dbfb;
+}
+.c{
+    background-color: #803788;
+}
+.python{
+    background-color: #fbd35a;
+}
